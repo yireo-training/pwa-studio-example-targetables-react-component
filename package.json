@@ -1,6 +1,6 @@
 {
     "name": "@yireo-training/pwa-studio-example-targetables-react-component",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Demo of Adobe PWA Studio targetables.reactComponent API",
     "author": "Jisse Reitsma <jisse@yireo.com>",
     "license": "ISC",
@@ -11,7 +11,7 @@
     },
     "pwa-studio": {
         "targets": {
-            "intercept": "src/intercept.js"
+            "intercept": "./src/intercept.js"
         }
     }
 }
