@@ -1,0 +1,20 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "@magento/pwa-buildpack": "~9.0.0",
+        "@magento/venia-ui": "~7.0.0",
+        "react": "^17.1.0"
+    },
+    "pwa-studio": {
+        "targets": {
+            "intercept": "src/intercept.js"
+        }
+    }
+}
